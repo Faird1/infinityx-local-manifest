@@ -2,13 +2,9 @@
 <manifest>
     <!-- REMOTES -->
     <remote name="local-github"
-            fetch="https://github.com/"
-            sync-c="true"
-            sync-j="4" />
+            fetch="https://github.com/" />
     <remote name="codeberg"
-            fetch="https://codeberg.org/"
-            sync-c="true"
-            sync-j="4" />
+            fetch="https://codeberg.org/" />
 
     <!-- INGRES -->
     <project name="Faird1/android_device_xiaomi_ingres" path="device/xiaomi/ingres" remote="local-github" revision="infinityx16" />
