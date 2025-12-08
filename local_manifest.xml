@@ -25,11 +25,7 @@
 
     <!-- GAMEKEYS -->
     <project name="Ingres-Centre/android_packages_apps_gamekeys" path="packages/apps/GameKeys" remote="local-github" revision="lineage-23.0" />
-
-    <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
     <project name="Ingres-Centre/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="local-github" revision="lineage-23.0" />
-
-    <remove-project name="LineageOS/android_device_lineage_sepolicy" />
     <project name="Ingres-Centre/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="local-github" revision="lineage-23.0" />
 
     <!-- GAMEKEYS DEPS -->
