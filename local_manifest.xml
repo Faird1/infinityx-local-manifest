@@ -5,6 +5,10 @@
   <remote name="github67" fetch="https://github.com" />
   <remote name="codeberg67" fetch="https://codeberg.org/" />
 
+  <!-- Remove Projects -->
+  <remove-project path="LineageOS/android_hardware_lineage_interfaces" />
+  <remove-project path="LineageOS/android_device_lineage_sepolicy" />
+
   <!-- Projects -->
   <project path="device/xiaomi/ingres"
            name="Faird1/android_device_xiaomi_ingres"
@@ -36,6 +40,14 @@
            revision="lineage-23.0" />
   <project path="packages/apps/GameKeys"
            name="Ingres-Centre/android_packages_apps_gamekeys"
+           remote="github67"
+           revision="lineage-23.0" />
+  <project path="hardware/lineage/interfaces"
+           name="Ingres-Centre/android_hardware_lineage_interfaces"
+           remote="github67"
+           revision="lineage-23.0" />
+  <project path="device/lineage/sepolicy"
+           name="Ingres-Centre/android_device_lineage_sepolicy"
            remote="github67"
            revision="lineage-23.0" />
   <project path="external/libevdev"
