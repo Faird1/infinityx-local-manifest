@@ -45,10 +45,6 @@
            name="Ingres-Centre/android_hardware_lineage_interfaces"
            remote="github67"
            revision="lineage-23.0" />
-  <project path="device/lineage/sepolicy"
-           name="Ingres-Centre/android_device_lineage_sepolicy"
-           remote="github67"
-           revision="lineage-23.0" />
   <project path="external/libevdev"
            name="LineageOS/android_external_libevdev"
            remote="github67"
