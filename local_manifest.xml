@@ -6,8 +6,8 @@
   <remote name="codeberg67" fetch="https://codeberg.org/" />
 
   <!-- Remove Projects -->
-  <remove-project path="LineageOS/android_hardware_lineage_interfaces" />
-  <remove-project path="LineageOS/android_device_lineage_sepolicy" />
+  <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
 
   <!-- Projects -->
   <project path="device/xiaomi/ingres"
