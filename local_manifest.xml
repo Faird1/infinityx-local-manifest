@@ -21,7 +21,7 @@
     <!-- KERNEL -->
     <project name="Ingres-Centre/android_kernel_xiaomi_sm8450" path="kernel/xiaomi/sm8450" remote="local-github" revision="lineage-23.0" />
     <project name="LineageOS/android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="local-github" revision="lineage-23.0" />
-    <project name="Ingres-Centre/android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="local-github" revision="lineage-23.0" />
+    <project name="Faird1/android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="local-github" revision="lineage-23.0" />
 
     <!-- GAMEKEYS DEPS -->
     <project name="LineageOS/android_external_libevdev" path="external/libevdev" remote="local-github" revision="lineage-22.2" />
